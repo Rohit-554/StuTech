@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/faculty"
+            android:layout_width="415dp"
+            android:layout_height="91dp"
+            android:background="#E2F1EE"
+            android:gravity="center"
+            android:text="@string/cse_faculty_list"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/p1name"
+            android:gravity="center_horizontal"
+            android:layout_width="223dp"
+            android:layout_height="95dp"
+            android:layout_below="@+id/faculty"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toEndOf="@+id/p1"
+            android:background="#E2F1EE"
+            android:text="      Dr. N Gupta"
+            android:textSize="22dp"
+            android:textStyle="bold"
+           />
+
+
+        <TextView
+            android:id="@+id/p2name"
+            android:layout_width="223dp"
+            android:layout_height="95dp"
+            android:background="#E2F1EE"
+            android:text="  Dr. NK Dubey"
+            android:textSize="22dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/p1name"
+            android:layout_toEndOf="@+id/p2"
+            />
+
+        <TextView
+            android:id="@+id/p3name"
+            android:layout_width="223dp"
+            android:layout_height="95dp"
+            android:background="#E2F1EE"
+            android:text="  Dr. UK MISHRA"
+            android:textSize="22dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/p2name"
+            android:layout_toEndOf="@+id/p2"
+            />
+
+
+        <TextView
+            android:layout_width="223dp"
+            android:layout_height="95dp"
+            android:background="#E2F1EE"
+            android:text="  Dr. UK MISHRA"
+            android:textSize="22dp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="80dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/p3name"
+            android:layout_toEndOf="@+id/p2"
+            />
+
+
+        <ImageView
+            android:id="@+id/p1"
+            android:layout_width="145dp"
+            android:layout_height="144dp"
+            android:layout_margin="15dp"
+            android:src="@drawable/bouncy_circular_user_icon"
+            android:layout_below="@+id/faculty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.957" />
+
+        <ImageView
+            android:id="@+id/p2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_below="@+id/p1"
+            android:layout_margin="15dp"
+            android:src="@drawable/bouncy_circular_user_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.103"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.423" />
+
+        <ImageView
+            android:id="@+id/p3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_below="@+id/p2"
+            android:layout_margin="15dp"
+            android:src="@drawable/bouncy_circular_user_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.073"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.167" />
+
+
+        <ImageView
+            android:id="@+id/p4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_below="@+id/p3"
+            android:layout_margin="15dp"
+            android:src="@drawable/bouncy_circular_user_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.103"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.685" />
+
+        <Button
+            android:id="@+id/p1btn"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:background="#7663A3"
+            android:layout_below="@+id/faculty"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="30dp"
+            android:layout_alignParentEnd="true"
+            android:text="More Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/p2btn"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:background="#7663A3"
+            android:layout_below="@+id/p1btn"
+            android:layout_marginTop="150dp"
+            android:layout_marginEnd="30dp"
+            android:layout_alignParentEnd="true"
+            android:text="More Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/p3btn"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:background="#7663A3"
+            android:layout_below="@+id/p2btn"
+            android:layout_marginTop="135dp"
+            android:layout_marginEnd="30dp"
+            android:layout_alignParentEnd="true"
+            android:text="More Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/p4btn"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:background="#7663A3"
+            android:layout_below="@+id/p3btn"
+            android:layout_marginTop="135dp"
+            android:layout_marginEnd="30dp"
+            android:layout_alignParentEnd="true"
+            android:text="More Details"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

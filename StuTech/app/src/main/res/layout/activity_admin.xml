@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/teacher"
+        />
+    <TextView
+        android:id="@+id/AdminName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_margin="15dp"
+        android:textStyle="bold"
+        android:text="Hey Admin!"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/UploadSyllabus"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/roundcorner"
+        android:textSize="15sp"
+        android:text="Upload Syllabus"
+        android:textStyle="bold"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/UploadMarks"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/roundcorner"
+        android:textSize="15sp"
+        android:text="Upload Marks"
+        android:textStyle="bold"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Attendance"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/roundcorner"
+        android:textSize="15sp"
+        android:text="Attendance"
+        android:textStyle="bold"
+        />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/admin_logout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="15dp"
+        android:text="LOGOUT"
+        android:background="#EC0B0B"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
